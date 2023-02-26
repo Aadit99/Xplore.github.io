@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(9,0,77,0.5),rgba(9,0,77,0.5)), url(background.png);
+    background-size: cover;
+    background-position: center;
+    padding:10px 4%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 0;
+}
+nav ul{
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:#f5168d;
+    transition: 0.4s;
+}
+.logo{
+    width: 15%;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color:#fff ;
+    background: #f5168d;
+}
+.btn:hover{
+    background-color: purple;
+    transition: .4s;
+}
+.btn img{
+    width: 20px;
+    margin-right: 10px;
+}
+.abcd{
+    width: 45%;
+    margin-top: 10%;
+}
+.abcd h1{
+    font-size: 65px;
+    color: #fff;
+    line-height: 80px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.abcd p{
+    color: #fff;
+    font-size: 15px;
+}
+form{
+    display: flex;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+form input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+form button{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+    margin:5px 5px;
+    outline: 0;
+    cursor: pointer;
+    color:#fff ;
+    background: #f5168d;
+    font-size: 15px;
+}
+form button:hover{
+    background-color: purple;
+    transition: .4s;
+}
+
+@media only screen and (max-width: 1259px){
+    .abcd{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 947px){
+    .abcd{
+        width: 80%;
+    }
+}
